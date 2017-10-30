@@ -1,6 +1,6 @@
 # Go-e-Mom Client
 
-**(WIP)**
+(WIP)  
 Goで作る監視アプリケーション Go-e-Mon のClientアプリケーションです。
 
 goroutineとTickerを利用して一定間隔毎に情報収集を行い、バックエンドのDBに記録します。
