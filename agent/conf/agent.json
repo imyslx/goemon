@@ -1,0 +1,30 @@
+{
+    "ManagerConf": {
+        "ManagerName": "localhost",
+        "ManagerPort": 8080,
+        "AgentName": "agent01"
+    },
+    "MonitoringItems": [
+        {
+            "Key": "server.hostname.full",
+            "Type": "Agent",
+            "Command": "HostInfo",
+            "Duration": 10,
+            "DataType": "ShortText"
+        },
+        {
+            "Key": "server.hostname.short",
+            "Type": "Agent",
+            "Command": "uname -a",
+            "Duration": 60,
+            "DataType": "ShortText"
+        },
+        {
+            "Key": "server.numOfCpuCores",
+            "Type": "Agent",
+            "Command": "cat /proc/cpuinfo",
+            "Duration": 60,
+            "DataType": "Integer"
+        }
+    ]
+}

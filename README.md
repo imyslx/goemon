@@ -4,13 +4,18 @@
 Goで作る監視アプリケーション Go-e-Mon です。  
 命名に意味はないです。Go-Monitorにしようとして間にeを挟んでみたくなっただけです。
 
+# Consept
+
+Basicな機能を備えつつ分散に特化した構成です。
+正直Zabbixなどに勝てる程に機能を充実させる気は無いです。
+
 # Components
 
 Server/Client型のアプリケーションです。  
 バックエンドはMySQLとKafkaを利用する予定です。
 
 Kafkaの後ろをどうするかは悩んでますがGridDB使ってみたいと思ってます。  
-Pythonとかで別に切るかも。
+ConnectorはPythonとかで別に切るかも。
 
 * 管理用DB
   * MySQL
