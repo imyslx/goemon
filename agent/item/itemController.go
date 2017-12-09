@@ -32,7 +32,7 @@ func ReadLocalFile(file string) (*MonitoringSetting, error) {
 func GetConfig() (*MonitoringSetting, error) {
 
 	// Get Config file.
-	ms, err := ReadLocalFile("./conf/client.json")
+	ms, err := ReadLocalFile("./conf/agent.json")
 	if err != nil {
 		zlog.Fatal().Err(err).Msg("Could not get local config. ")
 	}

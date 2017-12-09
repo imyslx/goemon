@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/imyslx/goemon/client/item"
+	"github.com/imyslx/goemon/agent/item"
 	zlog "github.com/rs/zerolog/log"
 )
 
